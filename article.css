@@ -1,0 +1,85 @@
+/*
+-----------------------------------------------------
+Wizards.com:  article.css
+Copyright (c) 2008 Wizards of the Coast
+http: //www.wizards.com/
+-----------------------------------------------------
+*/
+
+@import url("/web/20160205170533cs_/http://archive.wizards.com/Magic/Magazine/article.css");
+@import url("/web/20160205170533cs_/http://archive.wizards.com/Magic/TCG/styles.css");
+
+
+/* Main content */
+/* ----------------------------------------------- */
+
+#centerColumn {
+	background: #fff;
+	width: 800px;
+	float: left;
+}
+#centerColumn #content {
+	width: 800px;
+	float: left;
+}
+#centerColumn #content img[align="left"] {
+	margin: 0 0.25em 0 0;
+}
+#centerColumn #content img[align="right"] {
+	margin: 0 0 0 0.25em;
+}
+#centerColumn .center-content .heading {
+	width: 780px;
+	border: none;
+}
+#centerColumn .center-content .heading .description {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+#centerColumn .center-content .heading .description h5.byline {
+	display: none;
+}
+
+
+/* Article box */
+/* ----------------------------------------------- */
+
+#centerColumn .article-top {
+	height: 10px;
+	width: 780px;
+	background: transparent url("/web/20160205170533im_/http://archive.wizards.com/Magic/Assets/box-top-800.gif") left top no-repeat;
+}
+#centerColumn .article-top h3 {
+	background: none;
+}
+#centerColumn .center-content {
+	width: 780px;
+	background: transparent url("/web/20160205170533im_/http://archive.wizards.com/Magic/Assets/box-border-800.gif") right top repeat-y;
+}
+#centerColumn .center-content .article-content {
+	width: 780px;
+	overflow: hidden;
+}
+#centerColumn .center-content img {
+	max-width: 800px;
+	width: expression(width > 800 ? 800 : true); /* some article images are too wide for the available space */
+}
+#centerColumn .article-bottom {
+	background: transparent url("/web/20160205170533im_/http://archive.wizards.com/Magic/Assets/box-bottom-800.gif") left bottom no-repeat;
+}
+/*
+     FILE ARCHIVED ON 17:05:33 Feb 05, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:43:57 Oct 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 1.837
+  load_resource: 202.294 (2)
+  PetaboxLoader3.resolve: 132.525 (2)
+  PetaboxLoader3.datanode: 41.8 (2)
+*/
