@@ -1,0 +1,98 @@
+/*
+-----------------------------------------------------
+Wizards.com:  print.css
+Copyright (c) 2008 Wizards of the Coast
+http: //www.wizards.com/
+
+Reformats page for printer friendly version
+-----------------------------------------------------
+*/
+
+/* Generic site-level/global elements */
+/* ----------------------------------------------- */
+
+* {
+	max-width: 620px;
+	width: expression(width > 620 ? 620 : true);
+}
+
+#WizardsLogo, #bannerGraphic, .searchControl, 
+#mainNav, #leftColumn, #rightColumn, #footerNav ul, #topNav ul, #japaneseFooterNav ul
+#breadcrumb, #header, .article .header, ul.filter {
+	display: none;
+}
+
+body, #wrap, #container, #wrapper, #MasterMainContent, #centerColumn, 
+#footer, #footerWrap, #footerNav, #japaneseFooterNav
+.article, .article .content, .article .footer {
+	background: #fff !important;
+	border: none !important;
+}
+
+#wrap, #container, #wrapper, #MasterMainContent, #centerColumn, 
+#footer, #footerWrap, #footerNav, #japaneseFooterNav {
+	width: auto !important;
+	min-width: 0 !important;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	float: none !important;
+}
+
+/* Magic specific styles */
+/* ----------------------------------------------- */
+
+#adspaceRow, #content .center-content ul#heading-links, .article-top, 
+#content .center-content .article-footer, #content .center-content .heading .links {
+	display: none;
+}
+#content .center-content, .article-bottom, #footer, #footerText {
+	background: #fff !important;
+	border: none !important;
+}
+#content .center-content .heading {
+	height: auto !important;
+	border: none;
+}
+#content .center-content .heading .description h4, 
+#content .center-content .heading .description h5.byline {
+	width: 620px;
+	text-align: center;
+}
+#content .center-content .heading .description h5.byline {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #666;
+}
+#content .center-content a {
+	color: #000 !important;
+	text-decoration: none !important;
+}
+#footerText, #footerText p, #footerText a {
+	font-size: 12px !important;
+	color: #000 !important;
+}
+#footer {
+	width: 620px !important;
+	margin-top: 10px !important;
+	padding-top: 10px !important;
+	border-top: 3px solid #666 !important;
+}
+
+.globalSearchControl {
+	display: none;
+}
+/*
+     FILE ARCHIVED ON 17:05:44 Feb 05, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:44:11 Oct 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 5.737
+  load_resource: 40.35 (2)
+  PetaboxLoader3.datanode: 39.321 (2)
+*/
